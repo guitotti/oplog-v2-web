@@ -34,6 +34,17 @@ const theme = createTheme({
   shape: {
     borderRadius: 4,
   },
+  typography: {
+    fontFamily: [
+      '"DM Sans"',
+      "-apple-system",
+      "BlinkMacSystemFont",
+      '"Segoe UI"',
+      "Helvetica",
+      "Arial",
+      "sans-serif",
+    ].join(","),
+  },
 });
 
 createRoot(document.getElementById("root")!).render(
