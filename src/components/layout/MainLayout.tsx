@@ -24,6 +24,7 @@ import WarehouseIcon from "@mui/icons-material/Warehouse";
 import ReceiptLongIcon from "@mui/icons-material/ReceiptLong";
 import InventoryIcon from "@mui/icons-material/Inventory2";
 import { useAuth } from "../../hooks/useAuth";
+import { Notifier } from "../Notifier";
 
 const DRAWER_WIDTH = 240;
 
@@ -144,6 +145,8 @@ export function MainLayout() {
         <Toolbar />
         <Outlet />
       </Box>
+
+      <Notifier />
     </Box>
   );
 }
