@@ -1,0 +1,41 @@
+{
+  "veiculos": [
+    { "id": 1, "placa": "ABC1234", "modelo": "FH 540", "marca": "Volvo", "ano": 2020, "capacidadeCarga": 25.5, "tipo": "Caminhao" },
+    { "id": 2, "placa": "DEF5678", "modelo": "Actros 2651", "marca": "Mercedes", "ano": 2021, "capacidadeCarga": 30.0, "tipo": "Caminhao" },
+    { "id": 3, "placa": "GHI9012", "modelo": "Cargo 2429", "marca": "Ford", "ano": 2019, "capacidadeCarga": 18.0, "tipo": "Caminhao" },
+    { "id": 4, "placa": "JKL3456", "modelo": "Daily 35S14", "marca": "Iveco", "ano": 2022, "capacidadeCarga": 3.5, "tipo": "Van" },
+    { "id": 5, "placa": "MNO7890", "modelo": "Sprinter 416", "marca": "Mercedes", "ano": 2023, "capacidadeCarga": 4.0, "tipo": "Van" },
+    { "id": 6, "placa": "PQR2345", "modelo": "Strada", "marca": "Fiat", "ano": 2021, "capacidadeCarga": 0.7, "tipo": "Picape" },
+    { "id": 7, "placa": "STU6789", "modelo": "Hilux", "marca": "Toyota", "ano": 2020, "capacidadeCarga": 1.2, "tipo": "Picape" },
+    { "id": 8, "placa": "VWX1122", "modelo": "Delivery 11180", "marca": "Volkswagen", "ano": 2018, "capacidadeCarga": 10.5, "tipo": "Caminhao" },
+    { "id": 9, "placa": "YZA3344", "modelo": "HR", "marca": "Hyundai", "ano": 2022, "capacidadeCarga": 1.8, "tipo": "Utilitario" },
+    { "id": 10, "placa": "BCD5566", "modelo": "Master", "marca": "Renault", "ano": 2019, "capacidadeCarga": 1.6, "tipo": "Van" }
+  ],
+  "parceiros": [
+    { "id": 1, "nome": "Mercado Express", "cnpj": "11222333000101" },
+    { "id": 2, "nome": "Tech Distribuidora", "cnpj": "22333444000102" },
+    { "id": 3, "nome": "LogiFast Transportes", "cnpj": "33444555000103" },
+    { "id": 4, "nome": "Constrular Materiais", "cnpj": "44555666000104" },
+    { "id": 5, "nome": "Farmavida Medicamentos", "cnpj": "55666777000105" },
+    { "id": 6, "nome": "Moda Center", "cnpj": "66777888000106" },
+    { "id": 7, "nome": "BookStore Brasil", "cnpj": "77888999000107" },
+    { "id": 8, "nome": "Auto Pecas Nacional", "cnpj": "88999000000108" },
+    { "id": 9, "nome": "Casa do Eletronico", "cnpj": "99000111000109" },
+    { "id": 10, "nome": "Distribuidora Sao Paulo", "cnpj": "10111222000110" }
+  ],
+  "hubs": [
+    { "id": 1, "nome": "HUB Central Campinas", "tipo": "Distribuicao", "logradouro": "Av. Industrial", "numero": "1200", "cep": "13000001", "complemento": "Galpao A", "email": "campinas@hublog.com", "telefone": "19999991001", "parceiro": { "id": 1, "nome": "Mercado Express" } },
+    { "id": 2, "nome": "HUB Sao Paulo Norte", "tipo": "Armazenagem", "logradouro": "Rua do Comercio", "numero": "450", "cep": "01000002", "complemento": "Bloco B", "email": "spnorte@hublog.com", "telefone": "11999991002", "parceiro": { "id": 2, "nome": "Tech Distribuidora" } },
+    { "id": 3, "nome": "HUB Piracicaba Sul", "tipo": "CrossDocking", "logradouro": "Av. Limeira", "numero": "780", "cep": "13400003", "complemento": "Setor 3", "email": "piracicaba@hublog.com", "telefone": "19999991003", "parceiro": { "id": 3, "nome": "LogiFast Transportes" } },
+    { "id": 4, "nome": "HUB Ribeirao Preto", "tipo": "Distribuicao", "logradouro": "Rua Independencia", "numero": "320", "cep": "14000004", "complemento": "Galpao 2", "email": "ribeirao@hublog.com", "telefone": "16999991004", "parceiro": { "id": 4, "nome": "Constrular Materiais" } },
+    { "id": 5, "nome": "HUB Sorocaba Leste", "tipo": "Armazenagem", "logradouro": "Av. Itavuvu", "numero": "1500", "cep": "18000005", "complemento": "Fundos", "email": "sorocaba@hublog.com", "telefone": "15999991005", "parceiro": { "id": 5, "nome": "Farmavida Medicamentos" } },
+    { "id": 6, "nome": "HUB Jundiai Cargas", "tipo": "CrossDocking", "logradouro": "Rua das Industrias", "numero": "95", "cep": "13200006", "complemento": "Modulo C", "email": "jundiai@hublog.com", "telefone": "11999991006", "parceiro": { "id": 6, "nome": "Moda Center" } },
+    { "id": 7, "nome": "HUB Americana Centro", "tipo": "Distribuicao", "logradouro": "Av. Paulista", "numero": "600", "cep": "13465007", "complemento": "Deposito", "email": "americana@hublog.com", "telefone": "19999991007", "parceiro": { "id": 7, "nome": "BookStore Brasil" } },
+    { "id": 8, "nome": "HUB Limeira Central", "tipo": "Armazenagem", "logradouro": "Rua Boa Vista", "numero": "220", "cep": "13480008", "complemento": "Sala 4", "email": "limeira@hublog.com", "telefone": "19999991008", "parceiro": { "id": 8, "nome": "Auto Pecas Nacional" } },
+    { "id": 9, "nome": "HUB Bauru Oeste", "tipo": "Distribuicao", "logradouro": "Av. Nacoes Unidas", "numero": "890", "cep": "17000009", "complemento": "Galpao D", "email": "bauru@hublog.com", "telefone": "14999991009", "parceiro": { "id": 9, "nome": "Casa do Eletronico" } },
+    { "id": 10, "nome": "HUB Santos Porto", "tipo": "CrossDocking", "logradouro": "Rua do Porto", "numero": "50", "cep": "11000010", "complemento": "Area Portuaria", "email": "santos@hublog.com", "telefone": "13999991010", "parceiro": { "id": 10, "nome": "Distribuidora Sao Paulo" } }
+  ],
+  "entregadores": [],
+  "transacoes": [],
+  "entregas": []
+}
