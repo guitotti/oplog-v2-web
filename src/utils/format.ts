@@ -5,6 +5,17 @@ export function formatCep(value: string): string {
   return d.length === 8 ? `${d.slice(0, 5)}-${d.slice(5)}` : value;
 }
 
+/**
+ * A função normaliza texto para busca
+ * convertendo o conteúdo para minúsculo e sem acentos
+ */
+export function normalize(value: unknown): string {
+  return String(value ?? "")
+    .normalize("NFD")
+    .replace(/\p{Mark}/gu, "")
+    .toLowerCase();
+}
+
 export function maskTelefone(value: string): string {
   const d = onlyDigits(value).slice(0, 11);
   if (d.length <= 2) return d.length ? `(${d}` : "";
